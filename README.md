@@ -12,7 +12,7 @@ This repository is dedicated to attempting replication of the 2018 study by Frid
 
   This replication effort is structured around three methodological pillars: 1) the construction of a data pipeline for processing raw bills data to generate text alignment scores, 2) conducting robustness checks to validate the text-reuse-based measure of policy similarity against theoretical benchmarks and previous research findings, and 3) analyzing the distribution of alignment scores between bills sponsored by Republicans versus Democrats. Among these, the replication successfully reproduces the analysis for the second robustness check on diffusion networks and text alignments  in full and offers a partial replication for robustness check exploring differences in ideological scores of sponsors of bill pairs and the pairs' alignment scores.  
   
-  Details of the replication attempt can be found in `Replication Summary.pdf`.
+  Details of the replication attempt can be found in `Replication_Summary_Ayush_Lahiri.pdf`.
 
 ## Tutorial
 
