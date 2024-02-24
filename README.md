@@ -17,7 +17,7 @@ This repository is dedicated to attempting replication of the 2018 study by Frid
 ## Tutorial
 
 This README file provides an overview of the methodology undertaken. The R codes used in the article can be found under the folder R Codes and python codes can be found under python codes. The raw bill data and supplementary data are linked below under the Data section.
-The codes below do not fully replicate the results due to constraints in computation resources and data availability. We employ manual matching and sampling where required. Details can be found in the replication paper and in methodology undertaken in the code files.
+The codes below do not fully replicate the results due to constraints in computation resources and data availability. We employ manual matching and sampling where required. Details can be found in the replication summry paper and in methodology undertaken in the code files.
 
 ### Codes
 **Under python folder**
