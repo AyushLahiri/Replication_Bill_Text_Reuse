@@ -2,7 +2,8 @@
 
 This repository attempts to replicate the 2018 study by Fridolin Linder, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy, titled "Text as Policy: Measuring Policy Similarity through Bill Text Reuse", published in the Policy Studies Journal. The study introduces a novel methodology for quantifying policy similarity across US states by analyzing the extent of text reuse in legislative bills.
 
-The original publication can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257): 
+The original publication can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257) 
+Author's, official github repo for study can be found [here](https://github.com/desmarais-lab/text_reuse/tree/master?tab=readme-ov-file): 
 
 
 ## Abstract
@@ -16,10 +17,12 @@ This README file provides an overview of the methodology undertaken. The R codes
 The codes below do not fully replicate the results due to constraints in computation resources and data availability. We employ manual matching and sampling where required. Details can be found in the replication paper and in methodology undertaken in the code files.
 
 ### Codes
+**Under python folder**
+- `read_textalignment_create_sample_and_aggregate.ipynb`: this code samples bills from the text alignment(notext) dataset and generates state pair level average alignments.
+- `read_raw_bills_create_ideology_data.ipynb`: this code reads the raw state_bills data. It details the methodology used to generate counts of bills per state, using the legiscan API for name matching, manual matching and creation of the final datasets used for ideology analysis. Requires legiscan api
 
-- `text_alignment.ipynb`: this code samples bills from the text alignment(notext) dataset and generates state pair level average alignments.
-- `Ideology_dataset.ipynb`: this code reads the raw state_bills data. It details the methodology used to generate counts of bills per state, using the legiscan API for name matching, manual matching and creation of the final datasets used for ideology analysis. Requires legiscan api
-- `Diffusion.r`: this code replicates the robustness check for state pair diffusions and alignments.
+**Under R folder**
+- `diffusion.r`: this code replicates the robustness check for state pair diffusions and alignments.
 - `ideology.r`: this code replicates the ideology and alignments scores using sampled data. Uses final output from Ideology_dataset.ipynb 
 - `visualization.r`: this code creates exploratory visualizations
 
