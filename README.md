@@ -22,11 +22,11 @@ The codes below do not fully replicate the results due to constraints in computa
 ### Codes
 **Under python folder**
 - `read_textalignment_create_sample_and_aggregate.ipynb`: this code samples bills from the text alignment(notext) dataset and generates state pair level average alignments.
-- `read_raw_bills_create_ideology_data.ipynb`: this code reads the raw state_bills data. It details the methodology used to generate counts of bills per state, using the legiscan API for name matching, manual matching and creation of the final datasets used for ideology analysis. Requires legiscan api
+- `read_raw_bills_create_ideology_data.ipynb`: this code reads the raw state_bills data.  used to generate counts of bills per state, using the legiscan API for name matching, manual matching and creation of the final datasets used for ideology analysis. Requires legiscan api
 
 **Under R folder**
-- `diffusion.r`: this code replicates the robustness check for state pair diffusions and alignments.
-- `ideology.r`: this code replicates the ideology and alignments scores using sampled data. Uses final output from Ideology_dataset.ipynb 
+- `diffusion.r`: this code replicates the robustness check for state pair diffusions and alignments using network regressions.
+- `ideology.r`: this code replicates the robustness check on ideology and alignments scores using sampled text alignments data using quantile regressions
 - `visualization.r`: this code creates exploratory visualizations
 
 ### Data
