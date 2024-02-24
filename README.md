@@ -2,6 +2,9 @@
 
 This repository attempts to replicate the 2018 study by Fridolin Linder, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy, titled "Text as Policy: Measuring Policy Similarity through Bill Text Reuse", published in the Policy Studies Journal. The study introduces a novel methodology for quantifying policy similarity across US states by analyzing the extent of text reuse in legislative bills.
 
+The original publication can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257): 
+
+
 ## Abstract
 
 This repository is dedicated to attempting replication of the 2018 study by Fridolin Linder, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy on policy similarity among US states through bill text reuse. The original study presents a novel approach to quantifying policy similarity by measuring the extent of text reuse between legislative bills across different states. By identifying continuous numeric text alignment scores between bill pairs, the study explores the nuanced dimensions of policy similarity, including domain, ideological stance, specificity level, and other salient policy features embedded within legislative texts.  
