@@ -2,8 +2,8 @@
 
 This repository attempts to replicate the 2018 study by Fridolin Linder, Bruce Desmarais, Matthew Burgess, and Eugenia Giraudy, titled "Text as Policy: Measuring Policy Similarity through Bill Text Reuse", published in the Policy Studies Journal. The study introduces a novel methodology for quantifying policy similarity across US states by analyzing the extent of text reuse in legislative bills.
 
-The original publication can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257) 
-Author's, official github repo for study can be found [here](https://github.com/desmarais-lab/text_reuse/tree/master?tab=readme-ov-file): 
+The original publication can be found [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12257)   
+  Author's, official github repo for study can be found [here](https://github.com/desmarais-lab/text_reuse/tree/master?tab=readme-ov-file): 
 
 
 ## Overview
